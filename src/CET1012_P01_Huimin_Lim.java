@@ -10,7 +10,7 @@ public class CET1012_P01_Huimin_Lim {
         String interestType= args[0].toLowerCase(); //1st arg entered is interest type
         double p = Double.parseDouble(args[1]); //2nd arg entered is principal amount
         if(p <= 0){ //if input is 0 or less, prints error msg w info
-            System.out.print("Your principal amount must be more than 0. Please enter a valid principal amount.");
+            System.out.print("Your principal amount must be mossssre than 0. Please enter a valid principal amount.");
             return;
         }
         double r = Double.parseDouble(args[2]) / 100; //3rd arg is interest rate
